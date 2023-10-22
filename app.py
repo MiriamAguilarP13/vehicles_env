@@ -19,7 +19,7 @@ if hist_check:
     fig = px.histogram(df_vehicles, x='price')
     # mostrar un gráfico Plotly interactivo
     st.plotly_chart(fig, use_container_width=True)
-else:
+if scatter_check:
     st.write(
         'Creación de gráfico de dispersión del precio y año del modelo, para el conjunto de datos de anuncios de venta de autos')
     # se crea gráfico de dispersión
