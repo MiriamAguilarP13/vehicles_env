@@ -1,4 +1,5 @@
 pandas
 scipy
 streamlit
+plotly.express
 altair<5
